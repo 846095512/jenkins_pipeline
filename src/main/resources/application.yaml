@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: jenkins-cicd
+
+server:
+  port: 8888
+
