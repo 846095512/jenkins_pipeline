@@ -8,4 +8,4 @@ ENV SPRING_CONFIG_LOCATION=/app/config/
 # 暴露端口
 EXPOSE 8081
 # 启动应用，指定外部配置文件
-ENTRYPOINT ["sh", "-c", "java $JAVA_OPTS -jar app.jar --spring.config.location=/app/config/"]
+ENTRYPOINT ["sh", "-c", "java $JAVA_OPTS -jar app.jar"]
